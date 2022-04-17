@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script
+      src="https://kit.fontawesome.com/c9f9b67ba3.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div class="welcome"><h1>Contact Us</h1></div>
+    <div class="contact">
+      <form action="./data.php" method="get">
+        <fieldset>
+          <legend>Form</legend>
+          <p class="info">
+            In case of any questions or ideas, please contact us!
+          </p>
+          <form action="./data.php" method="get">
+            <label class="input" for="name">Name: </label>
+            <input
+              class="input"
+              type="name"
+              name="name"
+              placeholder="Your name"
+            />
+            <br />
+            <label class="input" for="email">E-mail: </label>
+            <input
+              class="input"
+              type="email"
+              name="email"
+              placeholder="Your e-mail"
+            />
+            <br />
+            <textarea
+              class="input"
+              name="message"
+              name="message"
+              cols="30"
+              rows="8"
+              placeholder="Write your message here"
+            ></textarea>
+            <br />
+            <input class="input" type="submit" value=" Submit " />
+            <br />
+          </form>
+        </fieldset>
+      </form>
+    </div>
+    <div class="navigation" id="nav">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      <a class="button" href="#nav"><i class="fa-solid fa-bars"></i></a>
+    </div>
+    <div class="copyright">
+      <p>
+        <a
+          class="social"
+          href="https://www.facebook.com/jakub.strzelecki.714/"
+          target="_blank"
+          ><i class="fa-brands fa-facebook-square"></i
+        ></a>
+        <a
+          class="social"
+          href="https://www.instagram.com/j.strzelec11/"
+          target="_blank"
+          ><i class="fa-brands fa-instagram"></i
+        ></a>
+      </p>
+      <br />
+      <br />
+      <p>Jakub Strzelecki &copy 2022</p>
+    </div>
+  </body>
+</html>
