@@ -125,18 +125,8 @@ html {
     line-height: 3rem;
   }
 }
-#ci-hero-11 .widget-wrap,
-#ci-hero-12 .widget-wrap {
-  background-size: auto;
-  background-attachment: fixed;
-}
-
-.widget-wrap {
-  background-attachment: scroll;
-}
-@media (max-width: 767px) {
-  #ci-hero-11 .widget-wrap,
-  #ci-hero-12 .widget-wrap {
+@media (hover: none) {
+  .homeHero {
     background-attachment: initial;
   }
 }
