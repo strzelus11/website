@@ -124,4 +124,8 @@ html {
     font-size: 1.5rem;
     line-height: 3rem;
   }
+  #ci-hero-11 .widget-wrap,
+  #ci-hero-12 .widget-wrap {
+    background-attachment: initial;
+  }
 }
