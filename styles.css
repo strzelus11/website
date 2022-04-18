@@ -125,13 +125,3 @@ html {
     line-height: 3rem;
   }
 }
-@media (hover: none) {
-  .homeHero {
-    background-attachment: initial;
-  }
-}
-@media (pointer: coarse) {
-  .homeHero {
-    background-attachment: initial;
-  }
-}
