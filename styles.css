@@ -130,3 +130,8 @@ html {
     background-attachment: initial;
   }
 }
+@media (pointer: coarse) {
+  .homeHero {
+    background-attachment: initial;
+  }
+}
